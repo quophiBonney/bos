@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import AllCSS from "./All.module.css";
-import Excited from "../assets/images/beulah2.png";
+import Excited from "../assets/images/exciting-min.jpg";
 import {BiMessageEdit} from "react-icons/bi";
 import {MdOutlineConnectWithoutContact} from "react-icons/md";
 import {BiHappyAlt} from "react-icons/bi";

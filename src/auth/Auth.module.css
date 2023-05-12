@@ -2,6 +2,12 @@
 .excitedContainer {
     margin-top: 70px;
 }
+.full {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
 h4 {
     font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
 }

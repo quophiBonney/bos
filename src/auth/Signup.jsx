@@ -9,7 +9,7 @@ function Signup() {
         <Col sm={12} md={12} lg={6} className="mt-5 text-center card px-5">
           <h4 className="mt-4 mb-3">Create Your Account</h4>
           <div className="row">
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
               <input
                 type="text"
                 id=""
@@ -17,7 +17,7 @@ function Signup() {
                 className="form-control"
               />
             </div>
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
               <input
                 type="text"
                 id=""
