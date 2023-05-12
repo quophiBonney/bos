@@ -4,12 +4,12 @@ import AuthCSS from "../auth/Auth.module.css";
 import {Link} from "react-router-dom";
 function Signup() {
   return (
-    <Container className={AuthCSS.excitedContainer}>
+    <Container className={AuthCSS.full}>
       <Row className="justify-content-center">
-        <Col sm={12} md={12} lg={6} className="mt-5 text-center card px-5">
+        <Col sm={12} md={12} lg={6} className="mt-5 text-center px-5">
           <h4 className="mt-4 mb-3">Create Your Account</h4>
           <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 mt-3">
               <input
                 type="text"
                 id=""
@@ -17,7 +17,7 @@ function Signup() {
                 className="form-control"
               />
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 mt-3">
               <input
                 type="text"
                 id=""
@@ -55,9 +55,9 @@ function Signup() {
             <div className="col-12 mt-3 mb-3">
               <input
                 type="submit"
-                id="register"
+                id={AuthCSS.registerBtn}
                 value="Register"
-                className="btn btn-primary w-100"
+                className="btn text-light w-100"
               />
             </div>
             <p>
