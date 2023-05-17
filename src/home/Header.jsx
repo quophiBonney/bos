@@ -5,6 +5,8 @@ import Logo from "../assets/brand/logo.png";
 import HomeCSS from "./Home.module.css";
 import {HiMenuAlt3} from "react-icons/hi";
 import {BiHome} from "react-icons/bi";
+import {MdAdd, MdExplore, MdHome, MdSearch} from "react-icons/md";
+import {BsPlus} from "react-icons/bs";
 function Header() {
   return (
     <Container>
@@ -27,6 +29,12 @@ function Header() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <div className="mx-auto">
+            <MdHome />
+            <MdExplore />
+            <MdAdd />
+            <MdSearch />
+          </div>
           <Nav className="ms-auto">
             <p>
               <strong>Solomon Bonney</strong>

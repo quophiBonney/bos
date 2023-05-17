@@ -13,7 +13,7 @@ function Quote() {
   return (
     <Container className="mt-5">
       <Row>
-        <Col sm={12} md={12} lg={12}>
+        <Col sm={12} md={12} lg={12} className="card">
           <Editor
             editorState={editorState}
             onEditorStateChange={handleChange}
