@@ -26,7 +26,7 @@ function Signup() {
   console.log(useFormik);
   return (
     <Container fluid className={AuthCSS.full}>
-      <Row className="justify-content-center px-5">
+      <Row className="justify-content-center px-2">
         <Col sm={12} md={12} lg={6} className="shadow mt-5 text-center">
           <h4 className="mt-4 mb-3 text-uppercase" id={AuthCSS.formTitle}>
             Signup To Become A Member
