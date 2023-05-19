@@ -9,7 +9,7 @@ body {
     color: #fff;
 }
 #navLogo {
-    width: 90px;
+    width: 80px;
     object-fit: cover;
 }
 .toggleIcon {
@@ -50,6 +50,9 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    #navLogo {
+        width: 60px;
+    }
     .btnGroup {
       display: inline-flex;
     }

@@ -7,8 +7,8 @@ function Home() {
   return (
     <div className={HomeCSS.mainContainer}>
       <Header />
-      <Quote />
       <Categories />
+      <Quote />
     </div>
   );
 }
