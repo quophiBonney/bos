@@ -12,8 +12,3 @@
     height: 300px;
     object-fit: cover;
 }
-#editor {
-    height: 300px;
-    border: 2px solid lavender;
-    background: red;
-}
